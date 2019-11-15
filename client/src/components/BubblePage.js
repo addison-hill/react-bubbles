@@ -12,7 +12,9 @@ const BubblePage = () => {
       .get('http://localhost:5000/api/colors')
       .then(res => setColorList(res.data))
       .catch(err => console.log(err));
-  }, []);
+  });
+
+  // add dependancy array ^ here as an empty array to stop bubbles from moving and stopping the infinite loop.
 
   return (
     <>
