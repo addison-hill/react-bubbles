@@ -1,0 +1,7 @@
+1. An authentic token is given to each user on registration so they can be authorized to access the content. 
+
+2. Use an authorization on login and have protected routes. As well as using a secure web host for deployment.
+
+3. Computers connect to the internet via the world wide web, locate a specific server computer through a URL and retrive info or resources through that server.
+
+4. .GET, .POST, .PUT, .DELETE
